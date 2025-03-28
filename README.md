@@ -11,7 +11,7 @@ and information about the goal point a robot learns to navigate to a specified p
 * Clone the repository \
 `git clone`
 * Navigate to the cloned location and install using poetry \
-`poetry install`
+`poetry install https://github.com/williamcheong0616/DRL-drone-navigation-IR-SIM.git`
 
 **Training the model**
 
@@ -32,7 +32,7 @@ and information about the goal point a robot learns to navigate to a specified p
 | SAC           |                                     Soft Actor-Critic model                                     |                https://github.com/denisyarats/pytorch_sac | 
 | PPO           |                               Proximal Policy Optimization model                                |            https://github.com/nikhilbarhate99/PPO-PyTorch | 
 | DDPG          |                            Deep Deterministic Policy Gradient model                             |                                          Updated from TD3 | 
-| CNNTD3        |                          TD3 model with 1D CNN encoding of laser state                          |                                                         - |
-| RCPG          | Recurrent Convolution Policy Gradient - adding recurrence layers (lstm/gru/rnn) to CNNTD3 model |                                                         - |
+| CNNTD3        |                          TD3 model with 1D CNN encoding of laser state                          |https://github.com/reiniscimurs/DRL-robot-navigation-IR-SIM|
+| RCPG          | Recurrent Convolution Policy Gradient - adding recurrence layers (lstm/gru/rnn) to CNNTD3 model |https://github.com/reiniscimurs/DRL-robot-navigation-IR-SIM|
 
 
