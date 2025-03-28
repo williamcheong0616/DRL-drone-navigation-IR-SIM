@@ -36,7 +36,7 @@ def main(args=None):
     )
     save_every = 10  # save the model every n training cycles
 
-    model = TD3(
+    model = SAC(
         state_dim=state_dim,
         action_dim=action_dim,
         max_action=max_action,

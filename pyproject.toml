@@ -1,9 +1,9 @@
 [project]
-name = "robot-nav"
+name = "DRL-drone-nav"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "reinis",email = "ireinisi@gmail.com"}
+    {name = "William Cheong",email = "williamcwl-wm22@student.tarc.edu.my"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"

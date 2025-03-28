@@ -22,7 +22,7 @@ def main(args=None):
     epoch = 0  # epoch number
     max_steps = 300  # maximum number of steps in single episode
 
-    model = CNNTD3(
+    model = SAC(
         state_dim=state_dim,
         action_dim=action_dim,
         max_action=max_action,
