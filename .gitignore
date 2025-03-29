@@ -1,0 +1,16 @@
+/.venv/
+/runs/
+README.md
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+*.msi
+*.egg-info/
+*.egg/
+*.dist-info/
+*.dist/
